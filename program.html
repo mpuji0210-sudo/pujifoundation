@@ -1,47 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Program Kami - Puji Foundation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program - Puji Foundation</title>
     <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            background-color: #f0f8ff;
-            padding: 30px;
-        }
-        h1 {
-            color: #004d00;
-        }
-        .program {
-            background: white;
-            padding: 20px;
-            margin: 20px auto;
-            border-radius: 15px;
-            max-width: 600px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        a {
-            color: #004d00;
-            text-decoration: none;
-        }
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f0fff4; }
+        header { background-color: #2E8B57; color: white; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .container { padding: 40px 20px; max-width: 900px; margin: auto; }
+        .card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card h3 { color: #2E8B57; margin-top: 0; }
+        footer { text-align: center; padding: 20px; background: #2E8B57; color: white; margin-top: 40px; }
     </style>
 </head>
 <body>
-    <h1>Program Kami</h1>
+    <header>
+        <img src="file.jpg" alt="Logo Puji Foundation" width="100" style="border-radius: 10px;">
+        <h1>Puji Foundation</h1>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="program.html">Program</a>
+            <a href="donasi.html">Donasi</a>
+            <a href="tentang.html">Tentang</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+    </header>
     
-    <div class="program">
-        <h2>1. PLTMH Desa Terpencil</h2>
-        <p>Membangun Pembangkit Listrik Tenaga Mikro Hidro di 10 desa 
-        yang belum terjamah listrik PLN tahun 2026-2027.</p>
+    <div class="container">
+        <h2>Program Kami</h2>
+        <p>Kami fokus pada 3 pilar utama untuk Indonesia yang lebih terang dan mandiri.</p>
+        
+        <div class="card">
+            <h3>1. PLTS Desa Mandiri</h3>
+            <p>Pemasangan Panel Surya di 10 desa tertinggal di Indonesia Timur. Target 2026: 1000 rumah terang tanpa putus listrik.</p>
+        </div>
+        
+        <div class="card">
+            <h3>2. Edukasi Energi Bersih</h3>
+            <p>Pelatihan untuk pemuda desa agar bisa merawat dan mengembangkan PLTS secara mandiri. Gratis!</p>
+        </div>
+
+        <div class="card">
+            <h3>3. Beasiswa Energi Hijau</h3>
+            <p>Beasiswa untuk mahasiswa teknik energi terbarukan. Biar lahir insinyur-insinyur hebat dari Indonesia.</p>
+        </div>
     </div>
 
-    <div class="program">
-        <h2>2. Sekolah Cahaya</h2>
-        <p>Menyediakan lampu belajar tenaga surya untuk 500 anak 
-        agar bisa belajar di malam hari.</p>
-    </div>
-
-    <br>
-    <a href="index.html">← Kembali ke Beranda</a>
+    <footer>
+        <p>© 2026 Puji Foundation. Bersama Menerangi Negeri.</p>
+    </footer>
 </body>
 </html>
